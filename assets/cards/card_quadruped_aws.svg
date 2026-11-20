@@ -1,0 +1,59 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="qbg" x1="0" y1="0" x2="800" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+    <pattern id="qgrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1E293B" stroke-width="0.9"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#qbg)"/>
+  <rect width="800" height="450" fill="url(#qgrid)" opacity="0.7"/>
+
+  <!-- Header -->
+  <rect x="28" y="26" width="218" height="28" rx="14" fill="#1E1B4B" stroke="#818CF8" stroke-width="1.2"/>
+  <text x="137" y="45" text-anchor="middle" fill="#E0E7FF" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="700">IEEE RAS UTEC × AWS · ONGOING</text>
+
+  <text x="28" y="94" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">Quadruped Robot Platform</text>
+  <text x="28" y="122" fill="#38BDF8" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">Reinforcement Learning Control &amp; Agentic AI Architecture</text>
+
+  <!-- 3-Stage Architecture Boxes -->
+  <!-- Stage 1: Amazon Bedrock -->
+  <rect x="28" y="164" width="222" height="176" rx="12" fill="#0F172A" stroke="#F59E0B" stroke-width="1.8"/>
+  <text x="139" y="196" text-anchor="middle" fill="#FBBF24" font-family="Consolas, monospace" font-size="12" font-weight="700">HIGH-LEVEL COGNITION</text>
+  <text x="139" y="232" text-anchor="middle" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">Amazon Bedrock</text>
+  <text x="139" y="260" text-anchor="middle" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="13">Agentic AI Planning</text>
+  <text x="139" y="282" text-anchor="middle" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="13">Task Decomposition</text>
+  <text x="139" y="304" text-anchor="middle" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="12">Natural Language Goals</text>
+
+  <!-- Arrow 1 -->
+  <line x1="250" y1="252" x2="288" y2="252" stroke="#38BDF8" stroke-width="2.5"/>
+  <polygon points="288,246 298,252 288,258" fill="#38BDF8"/>
+
+  <!-- Stage 2: RL Policy -->
+  <rect x="298" y="164" width="214" height="176" rx="12" fill="#0F172A" stroke="#38BDF8" stroke-width="1.8"/>
+  <text x="405" y="196" text-anchor="middle" fill="#38BDF8" font-family="Consolas, monospace" font-size="12" font-weight="700">LOCOMOTION POLICY</text>
+  <text x="405" y="232" text-anchor="middle" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">RL Control</text>
+  <text x="405" y="260" text-anchor="middle" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="13">Sim-to-Real Training</text>
+  <text x="405" y="282" text-anchor="middle" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="13">Velocity &amp; Gait Tracking</text>
+  <text x="405" y="304" text-anchor="middle" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="12">ROS 2 / Simulation Loop</text>
+
+  <!-- Arrow 2 -->
+  <line x1="512" y1="252" x2="550" y2="252" stroke="#34D399" stroke-width="2.5"/>
+  <polygon points="550,246 560,252 550,258" fill="#34D399"/>
+
+  <!-- Stage 3: Quadruped Hardware -->
+  <rect x="560" y="164" width="212" height="176" rx="12" fill="#0F172A" stroke="#34D399" stroke-width="1.8"/>
+  <text x="666" y="196" text-anchor="middle" fill="#34D399" font-family="Consolas, monospace" font-size="12" font-weight="700">PHYSICAL PLATFORM</text>
+  <text x="666" y="232" text-anchor="middle" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">Quadruped</text>
+  <text x="666" y="260" text-anchor="middle" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="13">Actuated Legged System</text>
+  <text x="666" y="282" text-anchor="middle" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="13">IMU &amp; Joint Feedback</text>
+  <text x="666" y="304" text-anchor="middle" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="12">Real-Time Execution</text>
+
+  <!-- Feedback return path -->
+  <path d="M 666 340 L 666 374 L 139 374 L 139 348" stroke="#64748B" stroke-width="1.8" stroke-dasharray="6 5" fill="none"/>
+  <polygon points="133,350 139,340 145,350" fill="#64748B"/>
+  <text x="405" y="396" text-anchor="middle" fill="#94A3B8" font-family="Consolas, monospace" font-size="12">STATE TELEMETRY &amp; ENVIRONMENTAL FEEDBACK LOOP</text>
+</svg>
