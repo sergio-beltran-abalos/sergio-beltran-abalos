@@ -11,7 +11,7 @@ Undergraduate Researcher @ **RIC (UTEC)** · President @ **IEEE RAS UTEC**
 
 <table>
   <tr>
-    <td width="46%" valign="middle">
+    <td width="46%" valign="top">
       <a href="https://github.com/sergio-beltran-abalos/4dof-pcb-screwing-manipulator">
         <img src="assets/cards/card_4dof.jpg" alt="4-DOF Serial Manipulator for PCB Screwing" width="100%" />
       </a>
@@ -29,7 +29,7 @@ Undergraduate Researcher @ **RIC (UTEC)** · President @ **IEEE RAS UTEC**
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/sergio-beltran-abalos/openmanipulator-x-intelligent-control">
-        <img src="assets/cards/card_openmanipulator.jpg" alt="OpenMANIPULATOR-X 6-Controller Study" width="100%" />
+        <img src="assets/cards/card_openmanipulator.png" alt="OpenMANIPULATOR-X 6-Controller Study" width="100%" />
       </a>
       <h3><a href="https://github.com/sergio-beltran-abalos/openmanipulator-x-intelligent-control">OpenMANIPULATOR-X — 6-Controller Study</a></h3>
       <p>Benchmarked 6 current-based joint controllers (GA-PI, Mamdani Fuzzy, Fuzzy PID, Imitation MLP, NARMA-L2, ANFIS) at <strong>100 Hz</strong> on NARX-identified Dynamixel X430 dynamics (<strong>RMSE &lt; 0.02 rad</strong>) and physical hardware. GA-PI achieved <strong>0.0459 rad (2.6°)</strong> simulation RMSE.</p>
@@ -37,7 +37,7 @@ Undergraduate Researcher @ **RIC (UTEC)** · President @ **IEEE RAS UTEC**
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/sergio-beltran-abalos/plc-hmi-pneumatic-hydraulic-automation">
-        <img src="assets/cards/card_plc_hmi.jpg" alt="Siemens S7-1200 PLC and WinCC KTP700 HMI" width="100%" />
+        <img src="assets/cards/card_plc_hmi.png" alt="Siemens S7-1200 PLC and WinCC KTP700 HMI" width="100%" />
       </a>
       <h3><a href="https://github.com/sergio-beltran-abalos/plc-hmi-pneumatic-hydraulic-automation">Siemens S7-1200 PLC &amp; WinCC KTP700 HMI</a></h3>
       <p>Programmed TIA Portal Ladder logic (SET/RESET sequencers, TON/CTU, 8-group cascades, <code>NORM_X</code>/<code>SCALE_X</code> <strong>0–10 V</strong> pressure &amp; RPM scaling) with a 2-screen PROFINET HMI, FluidSIM validation, and physical Festo bench commissioning.</p>
@@ -47,7 +47,7 @@ Undergraduate Researcher @ **RIC (UTEC)** · President @ **IEEE RAS UTEC**
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/sergio-beltran-abalos/nexum-1u-cubesat-validation">
-        <img src="assets/cards/card_cubesat.jpg" alt="NEX-Sat 1U CubeSat Qualification" width="100%" />
+        <img src="assets/cards/card_cubesat.png" alt="NEX-Sat 1U CubeSat Qualification" width="100%" />
       </a>
       <h3><a href="https://github.com/sergio-beltran-abalos/nexum-1u-cubesat-validation">NEX-Sat — 1U CubeSat Qualification</a></h3>
       <p>Assembled the 1U chassis (ESP32/LoRa 433 MHz, 553 g) and built a <strong>100 Hz Arduino DAQ</strong> (ADXL345, MPU6050, DS18B20) for thermal cycling (-1.5 °C to 51.6 °C), PSD vibration (<strong>5.19 g</strong>), and impact (<strong>23.7 g</strong>) tests with zero structural damage. <strong>CNPS Top 24 / 200+</strong>.</p>
@@ -55,7 +55,7 @@ Undergraduate Researcher @ **RIC (UTEC)** · President @ **IEEE RAS UTEC**
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/sergio-beltran-abalos/soft-robotic-rehab-glove-ric">
-        <img src="assets/cards/card_ric_glove.jpg" alt="Soft Robotic Rehab Glove RIC UTEC" width="100%" />
+        <img src="assets/cards/card_ric_glove.png" alt="Soft Robotic Rehab Glove RIC UTEC" width="100%" />
       </a>
       <h3><a href="https://github.com/sergio-beltran-abalos/soft-robotic-rehab-glove-ric">Soft Robotic Rehab Glove (RIC UTEC)</a></h3>
       <p>Engineered the open <strong>10-channel</strong> electronic and pneumatic hardware (Arduino, IRLZ44N MOSFETs, 3/2 NC solenoid valves, cast silicone actuators) for post-stroke hand rehabilitation toward EEG-BCI integration. Presented at <strong>JOPICF 2026 (Poster #1788455)</strong>.</p>
